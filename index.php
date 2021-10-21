@@ -5,6 +5,7 @@ Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i disch
 
 
 <?php
+require_once __DIR__ . "/partials/database.php";
 ?>
 
 <!DOCTYPE html>
@@ -23,6 +24,9 @@ Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i disch
 
 <body>
     <?php include __DIR__ . "/partials/template/header.php"; ?>
+    <main>
+        <?php include __DIR__ . "/partials/template/albums.php"; ?>
+    </main>
 </body>
 
 </html>
