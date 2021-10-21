@@ -1,0 +1,28 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Commons */
+body {
+    background-color: #1E2D3B;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    padding: 10px 15px;
+    background-color: #2E3A46;
+}
+
+.logo {
+    display: flex;
+    width: 50px;
+}
+
+.logo img {
+    width: 100%;
+}
