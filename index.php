@@ -1,6 +1,4 @@
-<!-- Stampare a schermo una decina di dischi musicali (vedi screenshot).
-Utilizzare: Html, Sass, JS, VueJS, PHP
-Prima Milestone:
+<!-- Prima Milestone:
 Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i dischi in pagina: al caricamento della pagina ci saranno tutti i dischi. -->
 
 
