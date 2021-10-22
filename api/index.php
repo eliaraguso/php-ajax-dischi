@@ -2,8 +2,8 @@
 require __DIR__ . "/../partials/database.php";
 
 header("Content-Type: application/json");
-
-echo(json_encode($database))
+header("Access-Control-Allow-Origin: *");
+echo(json_encode($database));
 
 
 ?>

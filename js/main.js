@@ -1,14 +1,14 @@
 const app = new Vue({
     el: '#root',
     data: {
-
+        albums : [],
     },
     created() {
         // Make a request for a user with a given ID
-        axios.get('http://localhost/47%20-%20PHP%20Ajax%20Dischi/php-ajax-dischi/api/index.php')
-            .then(function (response) {
+        axios.get('http://localhost/47-PHPAjaxDischi/php-ajax-dischi/api/index.php')
+            .then((response) => {
                 // handle success
-                console.log(response.data);
+                this.albums = response.data;
             })
             .catch(function (error) {
                 // handle error
