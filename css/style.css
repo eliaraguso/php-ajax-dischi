@@ -27,6 +27,17 @@ header {
     width: 100%;
 }
 
+header label {
+    margin: 0 10px 0 80px;
+    color: white;
+}
+header select {
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: #1E2D3B;
+    color: white;
+}
+
 /* Main */
 main {
     background-color: #1E2D3B;
